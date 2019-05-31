@@ -576,7 +576,7 @@ String convertFramesToTimeString(int frames){	// Requirement #4
   String ssec = nf(sec,2);
   String smin = nf(min,2);
   
-	return smin + " : " + ssec ;
+	return smin + ":" + ssec ;
 }
 
 color getTimeTextColor(int frames){				// Requirement #5
